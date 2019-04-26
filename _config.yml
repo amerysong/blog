@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: https://github.com/amerysong/amerysong.github.io.git
   branch: master
+
+# Posts Search Config
+search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
